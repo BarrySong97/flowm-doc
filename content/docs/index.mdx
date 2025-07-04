@@ -1,13 +1,56 @@
 ---
-title: Hello World
-description: Your first document
+title: 快速开始
+description: 流记是一款轻量级复式记账软件，支持多层级账户，丰富图表, 免费无广。
 ---
 
-Welcome to the docs! You can start writing documents in `/content/docs`.
+## 介绍
 
-## What is Next?
+介绍流记之中复式记账的基本概念，能让你更好的理解和使用流记。
+
+import {
+  Tickets,
+  ArrowLeftRight,
+  WalletIcon,
+  ChartBarIcon,
+} from "lucide-react";
 
 <Cards>
-  <Card title="Learn more about Next.js" href="https://nextjs.org/docs" />
-  <Card title="Learn more about Fumadocs" href="https://fumadocs.vercel.app" />
+<Card
+  icon={<Tickets />}
+  href="/docs/basic/double"
+  title="复式记账"
+>
+  什么是复式记账。
+</Card>
+  <Card icon={<WalletIcon />} href="/docs/basic/account" title="账户相关">
+    账户的概念
+  </Card>
+  <Card icon={<ArrowLeftRight />} href="/docs/basic/transactions" title="流水相关">
+    流水的概念
+  </Card>
+
+  <Card icon={<WalletIcon />} href="/docs/basic/shortcut" title="Ios快捷记账">
+    介绍Ios快捷记账的设置方法。
+  </Card>
+  
+</Cards>
+
+## 操作指南
+
+介绍流记之中复式记账的基本操作，能让你更好的使用流记。
+
+<Cards>
+  <Card icon={<WalletIcon />} href="/docs/basic/account" title="账户相关">
+    账户创建，删除，编辑，切换层级
+  </Card>
+  <Card icon={<ArrowLeftRight />} href="/docs/basic/transactions" title="流水相关">
+    流水创建，删除，编辑。
+  </Card>
+
+  <Card icon={<WalletIcon />} href="/docs/basic/shortcut" title="Ios快捷记账">
+    应用的界面介绍
+  </Card>
+  <Card icon={<ChartBarIcon />} href="/docs/basic/chart" title="图表相关">
+    图表的含义。
+  </Card>
 </Cards>

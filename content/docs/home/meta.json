@@ -1,0 +1,12 @@
+{
+    "title": "首页",
+    "icon": "",
+    "pages": [
+        "index",
+        "assets",
+        "expense",
+        "income",
+        "liability"
+    ],
+    "defaultOpen": true
+}

@@ -1,0 +1,11 @@
+{
+    "title": "基本概念",
+    "icon": "MyIcon",
+    "pages": [
+        "index",
+        "double",
+        "account",
+        "transactions"
+    ],
+    "defaultOpen": true
+}
