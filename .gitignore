@@ -5,6 +5,8 @@
 .contentlayer
 .content-collections
 .source
+.open-next
+.wrangler
 
 # test & build
 /coverage
