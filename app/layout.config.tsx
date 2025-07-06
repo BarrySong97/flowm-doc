@@ -5,7 +5,21 @@ export function baseOptions(locale: string): BaseLayoutProps {
   return {
     i18n,
     nav: {
-      title: locale === "cn" ? "Chinese Docs" : "English Docs",
+      title:
+        locale === "cn" ? (
+          <div className="flex items-center gap-2">
+            <img
+              src={"/logo/logo.png"}
+              style={{
+                width: "32px",
+                height: "34px",
+              }}
+            />
+            <span>流记</span>
+          </div>
+        ) : (
+          "English Docs"
+        ),
       url: `/${locale}`,
     },
     githubUrl: "https://github.com",
